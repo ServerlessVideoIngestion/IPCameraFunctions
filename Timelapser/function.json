@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "video/{name}",
+      "connection": "jortana_STORAGE"
+    }
+  ],
+  "disabled": false
+}
